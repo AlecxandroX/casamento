@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Casamento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: 'Georgia', serif;
+        }
+
+        .capa {
+            width: 100%;
+            min-height: 60vh; /* Define uma altura mínima */
+            background-image: url('IMG_9432.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .capa-texto {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.8);
+        }
+
+        .capa-texto h1 {
+            font-size: 4em;
+            margin-bottom: 0.5em;
+            letter-spacing: 2px;
+        }
+
+        .capa-texto h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            font-weight: normal;
+        }
+
+        .informacoes {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            text-align: center; /* Centralizar texto */
+        }
+
+        .informacoes h3 {
+            color: #6c757d;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .informacoes p {
+            color: #495057;
+            line-height: 1.6;
+        }
+
+        .btn-image {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            margin: 20px 0;
+            border-radius: 15px;
+        }
+
+        .btn-image img {
+            width: 100%;
+            height: 110%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .btn-image h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+            cursor: pointer;
+        }
+
+        .btn-image h3 {
+            position: absolute;
+            bottom: 20px; /* Ajuste a posição conforme necessário */
+            left: 50%;
+            transform: translateX(-50%);
+            color: white; /* Defina a cor do texto para branco */
+            font-size: 1.5em; /* Ajuste o tamanho da fonte se necessário */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Capa com imagem e texto sobreposto -->
+    <div class="capa">
+        <div class="capa-texto">
+            <h1>Convite de Casamento</h1>
+            <h2>Yohanna & Alecx</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="informacoes">
+            <h3>Queridos amigos e familiares,</h3>
+            <p>É com imensa alegria e gratidão que convidamos vocês para celebrar um momento tão especial em nossas vidas: o nosso casamento!</p>
+            <p>Venham compartilhar conosco este dia repleto de amor, felicidade e memórias inesquecíveis. A presença de cada um de vocês tornará este evento ainda mais especial e significativo.</p>
+
+            <h3>Data e Hora</h3>
+            <p>Data: 10 de Dezembro de 2024</p>
+            <p>Hora: 16:00</p>
+
+            <h3>Local</h3>
+            <p>Igreja Assembleia de Deus - Madureira</p>
+            <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+
+            <h3>Confirmação de Presença</h3>
+            <p>Por favor, confirme sua presença até o dia 1 de Dezembro de 2024.</p>
+            <p>Contamos com a sua presença para juntos celebrarmos este amor!</p>
+
+        </div>
+
+        <a href="https://link-da-lista-de-presentes.com" target="_blank">
+            <div class="btn-image">
+                <img src="IMG_9310.jpg" alt="Lista de Presentes">
+                <h2>Lista de Presentes</h2>
+                <h3>Clique para acessar</h3> <!-- Alterado para h3 -->
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <p>Estamos ansiosos para celebrar este dia especial com você!</p>
+    </footer>
+
+</body>
+
+</html>
